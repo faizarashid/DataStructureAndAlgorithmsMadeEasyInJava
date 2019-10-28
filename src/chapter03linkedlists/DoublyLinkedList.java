@@ -26,7 +26,11 @@ public class DoublyLinkedList{
 		head.setNext(tail);
 		length = 0;
 	} 
-
+        // checks whether the list is empty or not
+	public boolean isEmpty(){
+	return lenght==0;
+	
+	}
 	// Get the value at a given position.
 	public int get(int position) {
 		return Integer.MIN_VALUE;
